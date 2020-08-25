@@ -263,6 +263,7 @@ export interface ICodeCellMetadata extends IBaseCellMetadata {
    * Whether the cell is collapsed/expanded.
    */
   collapsed: boolean;
+  partialCollapse: boolean;
 
   /**
    * The Jupyter metadata namespace
