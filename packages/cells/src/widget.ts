@@ -870,7 +870,6 @@ export class CodeCell extends Cell {
       const metadata = this.model.metadata;
       const collapsed = this.model.metadata.get('collapsed');
 
-      // Handle updating partial collapse iff output is not hidden
       if (this.partialCollapse) {
         metadata.set('partialCollapse', true);
       } else {
